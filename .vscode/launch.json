@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Projects\\SkillFactoryTasks\\C5\\Task4\\index.html"
+            "file": "d:\\Projects\\SkillFactoryTasks\\C5\\Task5\\index.html"
         }
     ]
 }

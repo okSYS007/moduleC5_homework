@@ -10,7 +10,9 @@
 function myFunc() {
     //const value = document.querySelector('input').value; ?
     const myVal = document.querySelectorAll('input');
-    if (Number(myVal[0].value) === NaN || Number(myVal[1].value) === NaN || myVal[0] < 100 || myVal[1] > 300) {
+    if (Number(myVal[0].value) === NaN || Number(myVal[1].value) === NaN 
+    || myVal[0].value < 100 || myVal[0].value > 300
+    || myVal[1].value < 100 || myVal[1].value > 300) {
         document.getElementById("content").innerHTML = "«одно из чисел вне диапазона от 100 до 300»"
     }
     else {
